@@ -1,0 +1,11 @@
+{
+  "name": "ts-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Carlos Andres Gonzalez <cgonzalez@fullstacklabs.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
