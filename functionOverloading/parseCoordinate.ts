@@ -7,7 +7,7 @@ interface Coordinate {
 function parseCoordinate(obj: Coordinate): Coordinate
 function parseCoordinate(str: string): Coordinate
 function parseCoordinate(x: Number, y: number): Coordinate
-function parseCoordinate(arg1: unknown, arg2?: unknown): Coordinate {
+function parseCoordinate(arg1: Coordinate | string | Number, arg2?: unknown): Coordinate {
   if (typeof arg1 === 'object') {
     return {
       ...arg1 as Coordinate
